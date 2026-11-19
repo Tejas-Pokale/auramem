@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Tooling caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.deepeval/
+
+# Local config and secrets
+.env
+.claude/settings.local.json
+
+# Personal eval data: contains health, family, and finance details (PLAN.md section 10, finding 12).
+# Never commit these to a public repo.
+teju_*.csv
+evals/custom/data/private/
+evals/custom/snapshots/
+
+# Docker volumes
+/data/
+
+# Eval run outputs contain answers about personal data
+evals/custom/runs/

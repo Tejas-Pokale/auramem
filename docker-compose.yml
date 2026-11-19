@@ -1,0 +1,67 @@
+# Local infrastructure (PLAN.md section 8).
+#   docker compose up -d                    # neo4j + redis (use a native Ollama install)
+#   docker compose --profile ollama up -d   # also run Ollama in Docker
+# Values come from .env (see .env.example).
+
+name: memory-layer
+
+services:
+  neo4j:
+    image: ${NEO4J_IMAGE:-neo4j:2026.10.1-community}
+    restart: unless-stopped
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:-memory-dev-password}
+      # Not NEO4J_-prefixed: the image turns every NEO4J_* variable into a config setting.
+      HEALTHCHECK_PASSWORD: ${NEO4J_PASSWORD:-memory-dev-password}
+      NEO4J_server_memory_heap_initial__size: 512m
+      NEO4J_server_memory_heap_max__size: 1g
+      NEO4J_server_memory_pagecache_size: 512m
+    volumes:
+      - neo4j-data:/data
+      - neo4j-logs:/logs
+    healthcheck:
+      test: ["CMD-SHELL", "cypher-shell -u neo4j -p \"$${HEALTHCHECK_PASSWORD}\" 'RETURN 1' >/dev/null 2>&1"]
+      interval: 10s
+      timeout: 10s
+      retries: 12
+      start_period: 30s
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  # Off by default: the native Windows/macOS Ollama app already listens on 11434 and
+  # gets the GPU without extra setup. Enable with --profile ollama when it is not installed.
+  ollama:
+    image: ollama/ollama:latest
+    profiles: ["ollama"]
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-models:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+volumes:
+  neo4j-data:
+  neo4j-logs:
+  redis-data:
+  ollama-models:

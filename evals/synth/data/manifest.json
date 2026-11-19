@@ -1,0 +1,31 @@
+{
+  "persona": "Marisol Teresa Quintanilla-Reyes",
+  "months": [
+    "2024-11",
+    "2026-10"
+  ],
+  "ledger_facts": 772,
+  "persona_sessions": 350,
+  "distractor_sessions": 150,
+  "conversations": 500,
+  "turns": 2452,
+  "unverified_facts": 25,
+  "questions": 200,
+  "questions_by_type": {
+    "abstention": 20,
+    "assistant_recall": 17,
+    "conflict": 10,
+    "knowledge_update": 21,
+    "multi_fact": 34,
+    "preference_application": 11,
+    "sensitive_history": 5,
+    "single_fact": 48,
+    "temporal": 34
+  },
+  "models": {
+    "strong": "claude-sonnet-5-5",
+    "fast": "claude-haiku-5-5"
+  },
+  "seed": 500,
+  "generator_version": 2
+}

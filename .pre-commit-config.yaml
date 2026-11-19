@@ -1,0 +1,36 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: check-yaml
+      - id: check-toml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: check-added-large-files
+        args: ["--maxkb=1024"]  # the frozen distractor set is ~540 KB
+      - id: detect-private-key
+
+  # Local hooks use the project's locked tool versions via uv.
+  - repo: local
+    hooks:
+      - id: ruff-check
+        name: ruff check
+        entry: uv run ruff check --fix
+        language: system
+        types: [python]
+      - id: ruff-format
+        name: ruff format
+        entry: uv run ruff format
+        language: system
+        types: [python]
+      - id: mypy
+        name: mypy (strict)
+        entry: uv run mypy src tests evals
+        language: system
+        types: [python]
+        pass_filenames: false
+      - id: no-personal-eval-data
+        name: block personal eval CSVs
+        entry: personal eval data must not be committed (PLAN.md section 10, finding 12)
+        language: fail
+        files: (^|/)teju_.*\.csv$|^evals/custom/data/private/|^evals/custom/runs/

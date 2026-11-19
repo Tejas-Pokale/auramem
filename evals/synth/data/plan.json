@@ -1,0 +1,972 @@
+{
+  "persona": {
+    "full_name": "Marisol Teresa Quintanilla-Reyes",
+    "preferred_name": "Mari",
+    "birth_year": 1991,
+    "hometown": "Albuquerque, New Mexico",
+    "background": "Grew up in Albuquerque's South Valley and earned a B.S. in Civil Engineering from the University of New Mexico in 2013, then an M.S. in Transportation Engineering from Arizona State University in 2015. Started as a junior traffic engineer at Desert Ridge Consulting in Phoenix, and in 2019 moved to Denver to join Front Range Mobility Group, where she is now a senior project engineer designing signal timing and bike-lane retrofits.",
+    "personality": "Dry-humored, conscientious and a little perfectionist; she over-prepares, hates being late, and deflects stress with jokes. Warm with close friends but slow to ask for help. Likes data, spreadsheets and clear plans, and gets restless when things are ambiguous.",
+    "people": [
+      {
+        "name": "Rosa Quintanilla",
+        "relation": "mother",
+        "notes": "Retired school cafeteria manager in Albuquerque, age 67; diagnosed with Type 2 diabetes complications and calls Mari every Sunday evening."
+      },
+      {
+        "name": "Daniel Reyes",
+        "relation": "father",
+        "notes": "Retired electrician, 69, loves fishing at Navajo Lake; had a heart bypass planned for early 2025."
+      },
+      {
+        "name": "Lucía Reyes",
+        "relation": "younger sister",
+        "notes": "Nurse in Tucson, 28, engaged to a firefighter named Mateo; wedding planned for June 2025."
+      },
+      {
+        "name": "Theo Lindqvist",
+        "relation": "ex-boyfriend",
+        "notes": "Software tester she dated for three years; they broke up in December 2024 after he took a job in Seattle."
+      },
+      {
+        "name": "Priya Natarajan",
+        "relation": "best friend",
+        "notes": "Met in grad school at ASU; now a hydrologist in Boulder and Mari's regular climbing partner on Thursdays."
+      },
+      {
+        "name": "Gordon Whitaker",
+        "relation": "manager",
+        "notes": "Director of Traffic Operations at Front Range Mobility Group; supportive but frequently overbooks the team, runs a Monday 9 a.m. stand-up."
+      },
+      {
+        "name": "Jess Okafor",
+        "relation": "colleague",
+        "notes": "Junior engineer Mari mentors; sharp with GIS tools, tends to ask questions at 6 p.m."
+      },
+      {
+        "name": "Dr. Helen Abramowitz",
+        "relation": "primary care doctor",
+        "notes": "Internist at Cherry Creek Family Medicine who ordered Mari's cardiac monitor in 2025."
+      },
+      {
+        "name": "Biscuit",
+        "relation": "dog",
+        "notes": "Six-year-old beagle mix adopted from a Denver shelter in 2020; gets a 6:30 a.m. walk and is prone to ear infections."
+      },
+      {
+        "name": "Carmen Delgado",
+        "relation": "tía (aunt)",
+        "notes": "Mother's older sister in Santa Fe who makes red chile for holidays and lends Mari money in a pinch."
+      },
+      {
+        "name": "Andre Baptiste",
+        "relation": "dating interest",
+        "notes": "Elementary school music teacher Mari meets via a climbing gym event in spring 2025; plays upright bass."
+      },
+      {
+        "name": "Wendy Choi",
+        "relation": "landlord",
+        "notes": "Owns the Denver duplex Mari rents in Highland for $1,850 a month; announced a rent increase in 2025."
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "key": "employer",
+      "description": "Current employer",
+      "history": [
+        {
+          "value": "Front Range Mobility Group",
+          "from_date": "2019-08-12"
+        }
+      ]
+    },
+    {
+      "key": "job_title",
+      "description": "Current job title",
+      "history": [
+        {
+          "value": "Senior Project Engineer",
+          "from_date": "2023-03-01"
+        },
+        {
+          "value": "Lead Project Engineer, Signals and Active Transportation",
+          "from_date": "2026-01-05"
+        }
+      ]
+    },
+    {
+      "key": "annual_salary",
+      "description": "Gross annual salary",
+      "history": [
+        {
+          "value": "$104,000",
+          "from_date": "2024-03-01"
+        },
+        {
+          "value": "$111,500",
+          "from_date": "2025-03-01"
+        },
+        {
+          "value": "$124,000",
+          "from_date": "2026-01-05"
+        }
+      ]
+    },
+    {
+      "key": "manager_name",
+      "description": "Name of direct manager",
+      "history": [
+        {
+          "value": "Gordon Whitaker",
+          "from_date": "2021-06-01"
+        },
+        {
+          "value": "Alicia Brandt",
+          "from_date": "2026-01-05"
+        }
+      ]
+    },
+    {
+      "key": "home_city_neighborhood",
+      "description": "Neighborhood and city of residence",
+      "history": [
+        {
+          "value": "Highland, Denver",
+          "from_date": "2021-09-01"
+        },
+        {
+          "value": "Sloan's Lake, Denver",
+          "from_date": "2025-09-01"
+        }
+      ]
+    },
+    {
+      "key": "monthly_rent",
+      "description": "Monthly rent",
+      "history": [
+        {
+          "value": "$1,850",
+          "from_date": "2023-09-01"
+        },
+        {
+          "value": "$2,025",
+          "from_date": "2025-04-01"
+        },
+        {
+          "value": "$2,150",
+          "from_date": "2025-09-01"
+        }
+      ]
+    },
+    {
+      "key": "landlord",
+      "description": "Landlord name",
+      "history": [
+        {
+          "value": "Wendy Choi",
+          "from_date": "2021-09-01"
+        },
+        {
+          "value": "Tom Harlan (Harlan Property Management)",
+          "from_date": "2025-09-01"
+        }
+      ]
+    },
+    {
+      "key": "phone",
+      "description": "Smartphone model",
+      "history": [
+        {
+          "value": "iPhone 12",
+          "from_date": "2021-01-15"
+        },
+        {
+          "value": "Google Pixel 9",
+          "from_date": "2025-02-20"
+        }
+      ]
+    },
+    {
+      "key": "laptop",
+      "description": "Personal laptop",
+      "history": [
+        {
+          "value": "2019 Dell XPS 13",
+          "from_date": "2019-10-01"
+        },
+        {
+          "value": "MacBook Air M3 15-inch",
+          "from_date": "2025-11-28"
+        }
+      ]
+    },
+    {
+      "key": "relationship_status",
+      "description": "Romantic relationship status",
+      "history": [
+        {
+          "value": "In a relationship with Theo Lindqvist",
+          "from_date": "2021-12-01"
+        },
+        {
+          "value": "Single after breakup with Theo",
+          "from_date": "2024-12-14"
+        },
+        {
+          "value": "Dating Andre Baptiste casually",
+          "from_date": "2025-05-10"
+        },
+        {
+          "value": "In an exclusive relationship with Andre Baptiste",
+          "from_date": "2025-11-15"
+        }
+      ]
+    },
+    {
+      "key": "commute",
+      "description": "Typical commute to work",
+      "history": [
+        {
+          "value": "Drives 20 min to downtown office, parking $140/month",
+          "from_date": "2021-09-01"
+        },
+        {
+          "value": "Rides the W Line light rail plus bike, about 35 min",
+          "from_date": "2025-06-02"
+        },
+        {
+          "value": "Bikes 25 min via Platte River trail",
+          "from_date": "2025-09-01"
+        }
+      ]
+    },
+    {
+      "key": "workout_routine",
+      "description": "Regular exercise routine",
+      "history": [
+        {
+          "value": "Thursday bouldering with Priya plus two 3-mile runs a week",
+          "from_date": "2024-11-01"
+        },
+        {
+          "value": "Thursday bouldering plus half-marathon training, 4 runs a week",
+          "from_date": "2025-02-03"
+        },
+        {
+          "value": "Thursday climbing plus Saturday lead-climbing class, 2 easy runs a week",
+          "from_date": "2025-10-01"
+        }
+      ]
+    },
+    {
+      "key": "half_marathon_pb",
+      "description": "Half marathon personal best",
+      "history": [
+        {
+          "value": "2:09:40",
+          "from_date": "2023-10-15"
+        },
+        {
+          "value": "2:02:15",
+          "from_date": "2025-05-18"
+        },
+        {
+          "value": "1:58:48",
+          "from_date": "2025-10-12"
+        }
+      ]
+    },
+    {
+      "key": "diet",
+      "description": "Current eating pattern",
+      "history": [
+        {
+          "value": "No restrictions, frequent takeout",
+          "from_date": "2024-11-01"
+        },
+        {
+          "value": "Mostly Mediterranean-style, low sodium after cardiac monitor",
+          "from_date": "2025-04-10"
+        }
+      ]
+    },
+    {
+      "key": "current_course",
+      "description": "Course or training she is taking",
+      "history": [
+        {
+          "value": "None",
+          "from_date": "2024-11-01"
+        },
+        {
+          "value": "PE exam prep course (Civil, Transportation depth)",
+          "from_date": "2025-01-13"
+        },
+        {
+          "value": "Python for Data Analysis evening class at Colorado Community College",
+          "from_date": "2026-01-20"
+        }
+      ]
+    },
+    {
+      "key": "savings_goal",
+      "description": "Current savings target",
+      "history": [
+        {
+          "value": "$25,000 emergency fund",
+          "from_date": "2024-11-01"
+        },
+        {
+          "value": "$8,000 for family travel and wedding costs",
+          "from_date": "2025-01-15"
+        },
+        {
+          "value": "$40,000 house down payment fund",
+          "from_date": "2025-07-01"
+        }
+      ]
+    },
+    {
+      "key": "emergency_fund_balance",
+      "description": "Amount in emergency fund",
+      "history": [
+        {
+          "value": "$17,400",
+          "from_date": "2024-11-01"
+        },
+        {
+          "value": "$14,900",
+          "from_date": "2025-06-30"
+        },
+        {
+          "value": "$21,300",
+          "from_date": "2026-03-01"
+        }
+      ]
+    },
+    {
+      "key": "pe_license_status",
+      "description": "Professional Engineer license status",
+      "history": [
+        {
+          "value": "Passed FE exam, not yet PE",
+          "from_date": "2016-04-01"
+        },
+        {
+          "value": "Passed PE exam, license pending",
+          "from_date": "2025-05-02"
+        },
+        {
+          "value": "Licensed Colorado PE",
+          "from_date": "2025-07-15"
+        }
+      ]
+    },
+    {
+      "key": "health_monitor_status",
+      "description": "Cardiac health monitoring status",
+      "history": [
+        {
+          "value": "No monitoring",
+          "from_date": "2024-11-01"
+        },
+        {
+          "value": "Wearing 14-day cardiac patch monitor",
+          "from_date": "2025-03-17"
+        },
+        {
+          "value": "Diagnosed benign PVCs, annual checkup only",
+          "from_date": "2025-04-08"
+        }
+      ]
+    },
+    {
+      "key": "dog_vet_issue",
+      "description": "Biscuit's ongoing health concern",
+      "history": [
+        {
+          "value": "Recurrent ear infections",
+          "from_date": "2024-11-01"
+        },
+        {
+          "value": "Food allergy diet, hypoallergenic kibble",
+          "from_date": "2025-08-05"
+        }
+      ]
+    },
+    {
+      "key": "dog_walk_time",
+      "description": "Biscuit's morning walk time",
+      "history": [
+        {
+          "value": "6:30 a.m.",
+          "from_date": "2020-06-01"
+        },
+        {
+          "value": "6:00 a.m.",
+          "from_date": "2025-06-02"
+        }
+      ]
+    },
+    {
+      "key": "father_health_status",
+      "description": "Status of father Daniel's heart condition",
+      "history": [
+        {
+          "value": "Bypass surgery scheduled for February 2025",
+          "from_date": "2024-11-01"
+        },
+        {
+          "value": "Recovering after quadruple bypass on Feb 11",
+          "from_date": "2025-02-11"
+        },
+        {
+          "value": "Completed cardiac rehab, fishing again",
+          "from_date": "2025-06-01"
+        }
+      ]
+    },
+    {
+      "key": "sister_wedding_status",
+      "description": "Status of Lucía's wedding",
+      "history": [
+        {
+          "value": "Wedding planned for June 2025",
+          "from_date": "2024-11-01"
+        },
+        {
+          "value": "Married Mateo on June 21, 2025 in Tucson; Mari was maid of honor",
+          "from_date": "2025-06-21"
+        }
+      ]
+    },
+    {
+      "key": "weekly_family_call",
+      "description": "Weekly call schedule with mother",
+      "history": [
+        {
+          "value": "Sundays at 6 p.m. with Rosa",
+          "from_date": "2022-01-01"
+        },
+        {
+          "value": "Sundays at 5 p.m. with Rosa, plus Wednesday check-in on her blood sugar",
+          "from_date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "key": "blood_type",
+      "description": "Blood type",
+      "history": [
+        {
+          "value": "O positive",
+          "from_date": "1991-01-01"
+        }
+      ]
+    },
+    {
+      "key": "hometown",
+      "description": "Hometown",
+      "history": [
+        {
+          "value": "Albuquerque, New Mexico",
+          "from_date": "1991-01-01"
+        }
+      ]
+    },
+    {
+      "key": "number_of_siblings",
+      "description": "Number of siblings",
+      "history": [
+        {
+          "value": "1 (younger sister Lucía)",
+          "from_date": "1993-01-01"
+        }
+      ]
+    },
+    {
+      "key": "pet",
+      "description": "Pet",
+      "history": [
+        {
+          "value": "Biscuit, beagle mix",
+          "from_date": "2020-06-01"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-11-03",
+      "title": "Sunday call with Rosa about her blood sugar",
+      "details": "Rosa mentioned her A1C came back at 8.1 at the Albuquerque clinic; Mari started a spreadsheet to track her readings."
+    },
+    {
+      "date": "2024-11-09",
+      "title": "Signal retiming kickoff on Colfax",
+      "details": "Gordon Whitaker assigned Mari the Colfax Avenue corridor retiming, 14 intersections, due to the city in March."
+    },
+    {
+      "date": "2024-11-21",
+      "title": "Thursday bouldering session with Priya",
+      "details": "Priya Natarajan and Mari climbed at Movement RiNo; Mari sent her first V5 after three attempts."
+    },
+    {
+      "date": "2024-11-28",
+      "title": "Thanksgiving in Santa Fe",
+      "details": "Drove to Tía Carmen Delgado's house; Carmen made red chile and tamales, and Mari saw her dad Daniel for the pre-surgery talk."
+    },
+    {
+      "date": "2024-12-14",
+      "title": "Breakup with Theo Lindqvist",
+      "details": "Theo accepted a QA lead job in Seattle; they agreed to end the relationship after three years and Theo moved out of Mari's circle of weekly plans."
+    },
+    {
+      "date": "2024-12-21",
+      "title": "Biscuit's ear infection vet visit",
+      "details": "Visit to Highland Animal Clinic for Biscuit's third ear infection of the year; cost $265 for drops and cytology."
+    },
+    {
+      "date": "2024-12-25",
+      "title": "Christmas in Albuquerque",
+      "details": "Spent three days with Rosa, Daniel, and Lucía; Lucía and fiancé Mateo finalized the Tucson venue, Rancho Santa Catalina, for June."
+    },
+    {
+      "date": "2025-01-13",
+      "title": "Started PE exam prep course",
+      "details": "Enrolled in an online Civil/Transportation depth PE prep course costing $1,295; classes Monday and Wednesday evenings."
+    },
+    {
+      "date": "2025-01-15",
+      "title": "Set a new savings goal",
+      "details": "Redirected savings toward an $8,000 fund for family travel and wedding costs, including the maid of honor dress and Tucson flights."
+    },
+    {
+      "date": "2025-02-03",
+      "title": "Began half-marathon training",
+      "details": "Signed up for the Colfax Half-Marathon in May; started a 4-day-a-week plan with a goal of sub-2:05."
+    },
+    {
+      "date": "2025-02-10",
+      "title": "Flew to Albuquerque for Dad's surgery",
+      "details": "Booked a $212 Southwest flight to be at Presbyterian Hospital before Daniel's bypass."
+    },
+    {
+      "date": "2025-02-11",
+      "title": "Daniel's quadruple bypass",
+      "details": "Surgery at Presbyterian Hospital in Albuquerque lasted about 6 hours; the surgeon reported it went well."
+    },
+    {
+      "date": "2025-02-20",
+      "title": "Bought a Google Pixel 9",
+      "details": "Switched from the iPhone 12 after its battery failed; paid $799 at the Cherry Creek Best Buy."
+    },
+    {
+      "date": "2025-03-01",
+      "title": "Raise to $111,500 and new call schedule with Rosa",
+      "details": "Annual review with Gordon Whitaker brought a raise from $104,000; Mari also added a Wednesday blood-sugar check-in call with Rosa, moving Sunday call to 5 p.m."
+    },
+    {
+      "date": "2025-03-06",
+      "title": "Colfax retiming submitted",
+      "details": "Delivered the 14-intersection retiming package to the city of Denver two days early after a late night with Jess Okafor on the GIS maps."
+    },
+    {
+      "date": "2025-03-10",
+      "title": "Palpitations and doctor visit",
+      "details": "After skipped-beat episodes during a run, Dr. Helen Abramowitz at Cherry Creek Family Medicine did an EKG and ordered a monitor."
+    },
+    {
+      "date": "2025-03-17",
+      "title": "Cardiac patch monitor applied",
+      "details": "Began wearing a 14-day patch monitor; she kept running at an easy pace and logged symptoms in a spreadsheet."
+    },
+    {
+      "date": "2025-04-01",
+      "title": "Rent increase to $2,025",
+      "details": "Landlord Wendy Choi raised the Highland duplex rent from $1,850 to $2,025 a month, starting this date."
+    },
+    {
+      "date": "2025-04-08",
+      "title": "Benign PVCs diagnosis",
+      "details": "Dr. Abramowitz reported the monitor showed occasional benign PVCs; no treatment, only an annual checkup and less caffeine."
+    },
+    {
+      "date": "2025-04-10",
+      "title": "Switched to a Mediterranean low-sodium diet",
+      "details": "After the cardiac scare, Mari adopted a Mediterranean-style, low-sodium diet and began meal-prepping on Sundays."
+    },
+    {
+      "date": "2025-04-26",
+      "title": "Took the PE exam",
+      "details": "Sat the NCEES Civil PE exam (Transportation depth) at a Pearson testing center in Lakewood, Colorado."
+    },
+    {
+      "date": "2025-05-02",
+      "title": "Passed the PE exam",
+      "details": "Got the NCEES result: passed. Celebrated with tacos with Priya; license application was pending."
+    },
+    {
+      "date": "2025-05-10",
+      "title": "First date with Andre Baptiste",
+      "details": "After meeting at a climbing gym event in April, Mari and Andre, an elementary school music teacher who plays upright bass, went to a jazz night at Dazzle; they began dating casually."
+    },
+    {
+      "date": "2025-05-18",
+      "title": "Colfax Half-Marathon PB",
+      "details": "Ran 2:02:15, a new personal best, beating her 2:09:40 from 2023."
+    },
+    {
+      "date": "2025-06-01",
+      "title": "Dad finished cardiac rehab",
+      "details": "Daniel completed cardiac rehab in Albuquerque and went fishing at Navajo Lake with a borrowed boat."
+    },
+    {
+      "date": "2025-06-02",
+      "title": "Switched to light rail commute and 6 a.m. dog walk",
+      "details": "Gave up the $140 monthly parking spot and began taking the W Line plus a bike commute of about 35 minutes; Biscuit's walk moved to 6:00 a.m."
+    },
+    {
+      "date": "2025-06-21",
+      "title": "Lucía's wedding in Tucson",
+      "details": "Lucía married Mateo at Rancho Santa Catalina; Mari was maid of honor and gave a speech with a spreadsheet joke."
+    },
+    {
+      "date": "2025-06-30",
+      "title": "Emergency fund dips to $14,900",
+      "details": "After wedding travel, a dress, and a rent hike, her emergency fund balance was $14,900."
+    },
+    {
+      "date": "2025-07-01",
+      "title": "New savings goal: house down payment",
+      "details": "Started a $40,000 house down payment fund with an automatic $900 monthly transfer."
+    },
+    {
+      "date": "2025-07-15",
+      "title": "Colorado PE license issued",
+      "details": "Received her Colorado Professional Engineer license; Gordon announced it at the stand-up and the firm bought a cake."
+    },
+    {
+      "date": "2025-08-05",
+      "title": "Biscuit moved to hypoallergenic diet",
+      "details": "After an allergy workup at Highland Animal Clinic, the vet put Biscuit on a hypoallergenic kibble, about $78 a bag."
+    },
+    {
+      "date": "2025-08-16",
+      "title": "Camping trip to Great Sand Dunes",
+      "details": "Weekend with Priya in Colorado, hiking Star Dune; Mari got a sunburn but no heart symptoms."
+    },
+    {
+      "date": "2025-08-24",
+      "title": "Apartment hunting and lease signed",
+      "details": "Wendy Choi sold the Highland duplex; Mari signed a lease on a Sloan's Lake apartment through Tom Harlan of Harlan Property Management for $2,150 a month."
+    },
+    {
+      "date": "2025-09-01",
+      "title": "Moved to Sloan's Lake",
+      "details": "Moved with help from Andre and Priya; her commute became a 25-minute bike ride via the Platte River trail."
+    },
+    {
+      "date": "2025-09-20",
+      "title": "Twisted ankle on a trail run",
+      "details": "Rolled her left ankle on a trail at Mount Falcon, a grade 2 sprain; she was on crutches for 3 days and wore a brace for 3 weeks."
+    },
+    {
+      "date": "2025-10-01",
+      "title": "Started lead-climbing class",
+      "details": "Enrolled in a Saturday lead-climbing class at Movement RiNo for $240; cut running to two easy runs a week while the ankle healed."
+    },
+    {
+      "date": "2025-10-12",
+      "title": "Half-marathon PB at Denver Rock 'n' Roll",
+      "details": "Ran 1:58:48 in the Denver half-marathon, a new PB, with Andre cheering near mile 11."
+    },
+    {
+      "date": "2025-10-25",
+      "title": "Dropped meal-prep Sundays",
+      "details": "After a trial of three months, Mari dropped the strict Sunday meal prep in favor of cooking twice a week with Andre."
+    },
+    {
+      "date": "2025-11-02",
+      "title": "Fall Sunday call with Rosa",
+      "details": "Mari's Sunday 5 p.m. call with mother Rosa; Rosa reported her A1C dropped to 7.4 after switching to a new endocrinologist in Albuquerque, Dr. Salazar."
+    },
+    {
+      "date": "2025-11-08",
+      "title": "Lead-climbing class progress",
+      "details": "Mari completed her first lead fall at Movement Climbing Gym in Denver on a 5.10a route; instructor was Kai. Priya cheered from the floor."
+    },
+    {
+      "date": "2025-11-15",
+      "title": "Becomes exclusive with Andre",
+      "details": "After dinner at Tamayo in Larimer Square, Mari and Andre Baptiste agreed to be exclusive; Andre gave her a handmade mixtape of upright bass recordings."
+    },
+    {
+      "date": "2025-11-27",
+      "title": "Thanksgiving in Santa Fe",
+      "details": "Drove 6 hours to Santa Fe to have Thanksgiving at Tía Carmen Delgado's house with Rosa and Daniel; Carmen made red chile posole and Daniel reported 4 miles of walking daily."
+    },
+    {
+      "date": "2025-11-28",
+      "title": "Buys MacBook Air M3",
+      "details": "Bought a 15-inch MacBook Air M3 on Black Friday at the Apple Store in Cherry Creek for $1,149, replacing her 2019 Dell XPS 13."
+    },
+    {
+      "date": "2025-12-06",
+      "title": "Holiday party with Front Range Mobility Group",
+      "details": "Company holiday party at Mission Ballroom lounge; Gordon Whitaker hinted at a big announcement in January. Mari brought Andre as her plus-one."
+    },
+    {
+      "date": "2025-12-13",
+      "title": "Bought Andre a concert gift",
+      "details": "Bought two tickets for $96 total to a Colorado Symphony holiday concert at Boettcher Concert Hall for Andre's birthday outing."
+    },
+    {
+      "date": "2025-12-24",
+      "title": "Christmas Eve flight to Albuquerque",
+      "details": "Flew Denver to Albuquerque on Southwest, $214 round trip; spent Christmas Eve with parents making tamales with Rosa. Biscuit stayed with Priya in Boulder."
+    },
+    {
+      "date": "2025-12-31",
+      "title": "New Year's resolution spreadsheet",
+      "details": "Built a 2026 goals spreadsheet: save $40,000 for a house, break 1:55 in a half marathon, finish a Python course, and lead-climb a 5.11a."
+    },
+    {
+      "date": "2026-01-05",
+      "title": "Promoted to Lead Project Engineer",
+      "details": "Promoted to Lead Project Engineer, Signals and Active Transportation, with salary rising to $124,000. New manager is Alicia Brandt after Gordon Whitaker moved to a regional strategy role."
+    },
+    {
+      "date": "2026-01-20",
+      "title": "Starts Python for Data Analysis class",
+      "details": "Began a 10-week Tuesday evening Python for Data Analysis class at Colorado Community College, $385 tuition; first assignment used pandas on traffic count data."
+    },
+    {
+      "date": "2026-02-07",
+      "title": "Ski weekend in Breckenridge",
+      "details": "Went on a ski weekend with Andre and Priya to Breckenridge; Mari rented skis for $78 and strained her left ankle on Saturday afternoon on a blue run called Four O'Clock."
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Ankle sprain diagnosis",
+      "details": "Urgent care at UCHealth in Denver diagnosed a grade 2 left ankle sprain; she got a walking boot and was told to rest for 3 weeks, pausing climbing and running."
+    },
+    {
+      "date": "2026-02-14",
+      "title": "Valentine's Day at home",
+      "details": "With her ankle in a boot, Mari cooked Mediterranean-style dinner for Andre: lemon chicken, farro salad and roasted chickpeas; Andre played bass for her."
+    },
+    {
+      "date": "2026-02-24",
+      "title": "Pickleball tried and dropped",
+      "details": "Tried a pickleball clinic at Washington Park for $25 with Jess Okafor but quit after one session because her ankle was still tender and she disliked the ambiguity of the scoring rules."
+    },
+    {
+      "date": "2026-03-01",
+      "title": "Emergency fund reaches $21,300",
+      "details": "Mari's emergency fund hit $21,300 after her promotion raise and several months of automated $600 monthly transfers."
+    },
+    {
+      "date": "2026-03-10",
+      "title": "Cleared to climb again",
+      "details": "Physical therapist Nora at Mile High PT cleared Mari to return to climbing and easy jogging after 5 visits at $40 copay each."
+    },
+    {
+      "date": "2026-03-24",
+      "title": "Finishes Python class",
+      "details": "Completed her Python class with a final project mapping bike-lane crash data in Denver; earned a 94 percent."
+    },
+    {
+      "date": "2026-04-04",
+      "title": "Spring Hike on Mount Falcon",
+      "details": "First long hike post-injury: 6 miles at Mount Falcon Park with Biscuit and Andre; ankle felt fine."
+    },
+    {
+      "date": "2026-04-12",
+      "title": "Rosa's diabetes check",
+      "details": "Rosa's annual eye exam in Albuquerque found mild retinopathy; she will begin treatment with laser therapy. Mari started a weekly shared spreadsheet to track her appointments."
+    },
+    {
+      "date": "2026-04-26",
+      "title": "Coors Denver 10K",
+      "details": "Ran the Denver Rock 'n' Roll 10K in 54:12, a comfortable comeback race. Andre waited at the finish with burritos."
+    },
+    {
+      "date": "2026-05-09",
+      "title": "Lucía announces pregnancy",
+      "details": "Sister Lucía told the family she is 12 weeks pregnant, due in November 2026; Mari cried and immediately opened a baby-gift budget at $300."
+    },
+    {
+      "date": "2026-05-17",
+      "title": "Colfax Half Marathon",
+      "details": "Raced the Colfax Half Marathon in 2:01:30, slower than her 1:58:48 personal best; she blamed a headwind and a late sock decision."
+    },
+    {
+      "date": "2026-05-30",
+      "title": "Starts Duolingo-style guitar hobby",
+      "details": "Bought a Yamaha acoustic guitar at Guitar Center for $229 to try playing with Andre; lessons from a YouTube series."
+    },
+    {
+      "date": "2026-06-13",
+      "title": "Presents at ITE Mountain States conference",
+      "details": "Presented her Colfax corridor signal retiming results at the ITE Mountain States Section meeting in Colorado Springs; travel reimbursed by Front Range Mobility Group and the project cut average delay by 11 percent."
+    },
+    {
+      "date": "2026-06-21",
+      "title": "Anniversary of Lucía's wedding",
+      "details": "Mari and Lucía celebrated at a brunch in Tucson at Cafe Poca Cosa on Lucía and Mateo's first anniversary; Mari drove down for the weekend."
+    },
+    {
+      "date": "2026-07-04",
+      "title": "Fourth of July camping",
+      "details": "Camped near Lake Dillon with Andre, Priya and Biscuit; Mari dropped the guitar hobby after realizing she never practiced and sold the guitar online for $140."
+    },
+    {
+      "date": "2026-07-15",
+      "title": "One-year PE license anniversary",
+      "details": "Marked one year as a Colorado PE; Alicia Brandt assigned her to lead the Federal Boulevard bike-lane retrofit worth $2.4 million."
+    },
+    {
+      "date": "2026-08-08",
+      "title": "Trip to Portland",
+      "details": "Flew to Portland, Oregon with Andre for a long weekend; they visited Powell's Books, Forest Park and a jazz club, spending about $1,150 total."
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Lead climbs first 5.11a",
+      "details": "Lead climbed her first 5.11a at Movement Gym's Golden location after three attempts; Priya filmed it. Mari achieved her climbing goal for the year."
+    },
+    {
+      "date": "2026-09-05",
+      "title": "House hunting begins",
+      "details": "Met with a realtor, Brenda Salgado of Compass, to discuss buying a townhome in Denver under $450,000; lender pre-approval needed a $40,000 down payment, and her savings fund stood at $27,600."
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Denver Half Marathon registration",
+      "details": "Registered for the October 11 Denver half marathon for $120 and resumed four-run weeks, aiming to beat 1:58:48."
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Dad's fishing trip at Navajo Lake",
+      "details": "Drove to Navajo Lake in New Mexico for Daniel's birthday-week fishing trip; he caught a 17-inch rainbow trout and Mari took a week of vacation."
+    },
+    {
+      "date": "2026-10-11",
+      "title": "Denver Half Marathon",
+      "details": "Ran the Denver half marathon in 1:57:20, a new personal best; Andre, Priya and Biscuit were at mile 12."
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Makes an offer on a townhome",
+      "details": "Made an offer of $438,000 on a two-bedroom townhome near Sloan's Lake after touring it three times; the seller countered at $445,000."
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "father_bypass_date",
+      "first_value": "Dad's bypass surgery was on February 11",
+      "first_month": "2025-02",
+      "second_value": "Dad's bypass surgery was on February 13",
+      "second_month": "2025-08",
+      "note": "Mari misremembers the exact day months later; the surgery happened Feb 11 and the stress of that week blurred the date."
+    },
+    {
+      "topic": "half_marathon_pb_may_2025",
+      "first_value": "2:02:15 at the May race",
+      "first_month": "2025-05",
+      "second_value": "2:01:50 at the May race",
+      "second_month": "2025-07",
+      "note": "She rounds and misremembers her finish time while chatting casually; the official chip time was 2:02:15."
+    },
+    {
+      "topic": "sister_wedding_guest_count",
+      "first_value": "About 120 guests at Lucía's wedding",
+      "first_month": "2025-05",
+      "second_value": "About 150 guests at Lucía's wedding",
+      "second_month": "2025-07",
+      "note": "Before the wedding she quoted the RSVP count; afterward she recalled the larger number including plus-ones and walk-ins."
+    },
+    {
+      "topic": "rent_increase_amount",
+      "first_value": "Wendy raised rent by $200 a month",
+      "first_month": "2025-04",
+      "second_value": "Wendy raised rent by $175 a month",
+      "second_month": "2025-08",
+      "note": "She first rounded the increase up when annoyed; the real change was from $1,850 to $2,025, which is $175."
+    },
+    {
+      "topic": "theo_relationship_length",
+      "first_value": "Dated Theo for three years",
+      "first_month": "2024-12",
+      "second_value": "Dated Theo for almost four years",
+      "second_month": "2025-06",
+      "note": "Different framing; they got together Dec 2021 and split Dec 2024, so three years is accurate, but she exaggerates when reminiscing."
+    },
+    {
+      "topic": "biscuit_adoption_year",
+      "first_value": "Adopted Biscuit in 2020",
+      "first_month": "2025-01",
+      "second_value": "Adopted Biscuit in 2019, right after moving to Denver",
+      "second_month": "2025-10",
+      "note": "She conflates the move to Denver in 2019 with the adoption; actual adoption was in 2020."
+    },
+    {
+      "topic": "pe_exam_prep_hours",
+      "first_value": "Studying about 8 hours a week for the PE exam",
+      "first_month": "2025-02",
+      "second_value": "Studying about 12 hours a week for the PE exam",
+      "second_month": "2025-04",
+      "note": "Her effort ramped up closer to the exam, but she also says the second number as if it had always been her routine."
+    },
+    {
+      "topic": "commute_bike_time",
+      "first_value": "Bike commute along the Platte River trail takes 25 minutes",
+      "first_month": "2025-09",
+      "second_value": "Bike commute takes about 20 minutes",
+      "second_month": "2025-11",
+      "note": "She quotes her best-day time the second time; typical ride is 25 minutes."
+    },
+    {
+      "topic": "emergency_fund_balance_mar_2026",
+      "first_value": "Emergency fund at $21,300",
+      "first_month": "2026-03",
+      "second_value": "Emergency fund at $23,100",
+      "second_month": "2026-05",
+      "note": "She mixes up the emergency fund figure with her total savings including the house fund contribution, misquoting the balance."
+    },
+    {
+      "topic": "mother_call_day",
+      "first_value": "Calls Mom on Sundays at 5 p.m.",
+      "first_month": "2025-09",
+      "second_value": "Calls Mom on Saturdays at 5 p.m.",
+      "second_month": "2025-12",
+      "note": "A slip of the tongue; the regular call is Sunday and she briefly mentions Saturday after one holiday weekend shifted the call."
+    }
+  ],
+  "preferences": [
+    "Prefers answers in concise bullet points with the recommendation first, then reasoning.",
+    "Likes tables when comparing more than two options.",
+    "Wants numbers with units and dates, not vague estimates.",
+    "Drinks black coffee in the morning and stops caffeine by 2 p.m.",
+    "Eats mostly vegetarian on weekdays but loves her mother's green chile stew.",
+    "Uses Notion for planning and Google Calendar for scheduling.",
+    "Works in Excel and Python (pandas) for traffic data analysis.",
+    "Wakes at 5:45 a.m. and walks the dog at 6:30 a.m.",
+    "Does her deep work in the morning and avoids meetings before 10 a.m. when possible.",
+    "Climbs at the gym on Tuesday and Thursday evenings.",
+    "Dislikes small talk on calls and prefers email over phone for work matters.",
+    "Dislikes excessive exclamation points and overly cheerful tone from assistants.",
+    "Prefers metric-free US units (miles, Fahrenheit, dollars).",
+    "Likes podcasts about urban planning and true crime on commutes.",
+    "Budgets with a monthly zero-based spreadsheet and hates unplanned subscription charges."
+  ],
+  "sensitive_topics": [
+    "Breakup with Theo Lindqvist in December 2024, after he accepted a Seattle job; she still feels guilt and grief and avoids discussing him casually.",
+    "Father Daniel's heart bypass surgery on February 11, 2025, with a complicated recovery in March 2025 including an infection.",
+    "Mother Rosa's worsening diabetes and a hospitalization in September 2025 for a foot ulcer, raising worries about care costs.",
+    "Money stress: in April 2025 she co-signed part of her parents' medical bills (about $9,400) and drew down her emergency fund, while rent rose to $1,950 in July 2025.",
+    "Health scare: in May 2025 she had episodes of heart palpitations and wore a 14-day cardiac monitor; results in June 2025 showed benign arrhythmia but she remains anxious.",
+    "Work stress: a project at Front Range Mobility lost funding in January 2026, leading to layoff rumors and her fear of losing her job."
+  ]
+}
